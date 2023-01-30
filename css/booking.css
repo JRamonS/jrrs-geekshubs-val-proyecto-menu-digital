@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-image: url(../img/hero.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:'Poppins', sans-serif;
+ }
+
+ .per {
+    padding: 20px 0;
+    width: 50%;
+    text-align: center;
+    color: white;
+    display: grid;
+    grid-row-gap: 20px;
+ }
+
+ form p {
+    font-weight: 600;
+ }
+
+ .field {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ button {
+   color: white;
+   padding: 3px 20px 3px 20px;
+   border: 1px solid orange;
+   background: rgb(0, 0, 0, 0.6);
+   font-size: 1.2rem;
+   border-radius: 25px;
+ }
+ 
+ button:hover {
+    background-color: rgba(1, 1, 213, 0.686);
+    transform: scale(0.9);
+    transition-duration: 1000ms;
+ }
+
