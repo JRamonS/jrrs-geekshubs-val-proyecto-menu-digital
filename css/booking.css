@@ -7,34 +7,30 @@ body {
     font-family:'Poppins', sans-serif;
  }
 
- .per {
-    padding: 20px 0;
-    width: 50%;
-    text-align: center;
-    color: white;
-    display: grid;
-    grid-row-gap: 20px;
+ /* Barra de navegación */
+ .box-1 {
+   background-color: rgba(0, 0, 0, 0.472);
  }
 
- form p {
-    font-weight: 600;
- }
+ .box-0 a {
+   transition-duration: 1000ms;
+   
+}
 
- .field {
-    display: flex;
-    justify-content: space-between;
- }
+.box-0 a:hover{
+   background-color:  rgba(1, 1, 213, 0.686);
+   transform: scale(0.9);
+}
 
- button {
-   color: white;
+/* Botón Reserva */
+ .btn1 {
    padding: 3px 20px 3px 20px;
    border: 1px solid orange;
    background: rgb(0, 0, 0, 0.6);
-   font-size: 1.2rem;
    border-radius: 25px;
  }
  
- button:hover {
+ .btn1:hover {
     background-color: rgba(1, 1, 213, 0.686);
     transform: scale(0.9);
     transition-duration: 1000ms;

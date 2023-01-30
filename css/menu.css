@@ -5,4 +5,16 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
  }
+ .box-1 {
+   background-color: rgba(0, 0, 0, 0.472);
+ }
+ 
+ .box-0 a {
+    transition-duration: 1000ms;
+ }
+ 
+ .box-0 a:hover{
+    background-color:  rgba(1, 1, 213, 0.686);
+    transform: scale(0.9);
+ }
 
