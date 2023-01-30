@@ -6,7 +6,7 @@ body {
     background-attachment: fixed;
     font-family:'Poppins', sans-serif;
  }
-
+/* <==================== Barra de Navegación =========================> */
  .box-1 {
    background-color: rgba(0, 0, 0, 0.472);
  }
@@ -18,16 +18,13 @@ body {
    background-color:  rgba(1, 1, 213, 0.686);
    transform: scale(0.9);
 }
-
+/* ======================== Main ==============================> */
 .box-2 {
    margin-top: 120px;
    margin-bottom: 20px;
 }
 
-.box-3 {
-   margin-top: 20px;
-}
-
+/* <================= Botón Menu ========================> */
 button {
   color: white;
   padding: 3px 20px 3px 20px;

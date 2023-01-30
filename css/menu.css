@@ -5,6 +5,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
  }
+
+ /* <====================== Barra de navegación =================> */
  .box-1 {
    background-color: rgba(0, 0, 0, 0.472);
  }
