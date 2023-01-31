@@ -15,81 +15,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row box-1 sm-12 md-6 lg-4">
-        <div class="col p-0">
-          <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-              <!-- logo name -->
-              <h1 class="navbar-brand text-warning fs-2">Nigiri Restaurant</h1>
-              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
-                <span class="navbar-toggler-icon bg-warning"></span>
-              </button>
-          <!-- BARRA DE NAVEGACIÓN -->
-              <div id="MenuNavegacion" class="collapse navbar-collapse">
-                <ul class="navbar-nav mx-auto style=150px box-0">
-                  <li class="nav-item"><a class="nav-link text-white" href="../index.html">Home</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="./menu.html">Menu</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="./booking.html">Reserva</a></li>
-                  <li class="nav-item"><a class="nav-link text-white" href="./booking.html">Contactos</a></li>
-                </ul>
-              </div>
+    <div class="container-principal-fluid">
+        <div class="container-fluid">
+          <div class="row box-1 sm-12 md-6 lg-4">
+            <div class="col p-0">
+              <nav class="navbar navbar-expand-md">
+                <div class="container-fluid">
+                  <!-- logo name -->
+                  <h1 class="navbar-brand text-warning fs-2">Nigiri Restaurant</h1>
+                  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+                    <span class="navbar-toggler-icon bg-warning"></span>
+                  </button>
+              <!-- BARRA DE NAVEGACIÓN -->
+                  <div id="MenuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mx-auto style=150px box-0">
+                      <li class="nav-item"><a class="nav-link text-white" href="../index.html">Home</a></li>
+                      <li class="nav-item"><a class="nav-link text-white" href="./menu.html">Menu</a></li>
+                      <li class="nav-item"><a class="nav-link text-white" href="./booking.html">Reserva</a></li>
+                      <li class="nav-item"><a class="nav-link text-white" href="./booking.html">Contactos</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
             </div>
-          </nav>
+          </div>
+        </div> 
+        <!-- Formulario Reserva -->
+        <div class="conatainer-fluid">
+          <div class="row mx-0">
+            <div class="col-12 mt-5">
+              <div class="mb-4 text-center text-white"><h2>Haz Tu Reserva</h2></div>
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="form-control bord" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+                </div>
+                <div class="mb-3">
+                  <input type="text" class="form-control bord" id="exampleInputPassword1" placeholder="Apellidos">
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control bord" id="exampleInputPassword1" placeholder="Correo Electronico">
+                </div>
+                <div class="mb-3">
+                  <input type="number" class="form-control bord" id="exampleInputPassword1" placeholder="Número De Teléfono">
+                </div>
+                <div class="mb-3">
+                  <input type="date" class="form-control bord" id="exampleInputPassword1" placeholder="Día">
+                </div>
+                <div class="mb-3">
+                  <input type="time" class="form-control bord" id="exampleInputPassword1" placeholder="Hora">
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary btn1 text-white fs-4">Reserva</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-      </div>
-    </div> 
-    <!-- Formulario Reserva -->
-    <div class="conatainer">
-      <div class="row">
-        <div class="col1 mt-5">
-          <div class="mb-4 text-center text-white"><h2>Haz Tu Reserva</h2></div>
-          <form>
-            <div class="mb-3">
-              <input type="text" class="form-control bord" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nombre">
+    
+        <!-- <============================ Contactos =========================================> -->
+    
+        <div class="container mt-5 text-white map-3">
+          <div class="row justify-content-center">
+            <div class="col">
+              <div>
+                Nigiri Restauran.
+                12 Market St, Valencia
+                Valencia Espana, 24100
+                Telefono: (96) 234-7890
+                Adrian
+                adrian.roso@example.com
+                </div>
+                <div><p class="fw-bold mt-3">Abierto de Lunes a Domingo de 13:00PM a 23:00PM</p></div>
             </div>
-            <div class="mb-3">
-              <input type="text" class="form-control bord" id="exampleInputPassword1" placeholder="Apellidos">
+            <div class="col mt-4">
+            <div class="mapcontainer"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12373.793492151608!2d-0.23444284999999998!3d39.1645265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1675109447057!5m2!1ses!2ses" class="mpr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
-            <div class="mb-3">
-              <input type="email" class="form-control bord" id="exampleInputPassword1" placeholder="Correo Electronico">
-            </div>
-            <div class="mb-3">
-              <input type="number" class="form-control bord" id="exampleInputPassword1" placeholder="Número De Teléfono">
-            </div>
-            <div class="mb-3">
-              <input type="date" class="form-control bord" id="exampleInputPassword1" placeholder="Día">
-            </div>
-            <div class="mb-3">
-              <input type="time" class="form-control bord" id="exampleInputPassword1" placeholder="Hora">
-            </div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary btn1 text-white fs-4">Reserva</button>
-            </div>
-          </form>
         </div>
-      </div>
-    </div>
-
-    <!-- <============================ Contactos =========================================> -->
-
-    <div class="container-fluid mt-5 text-white">
-      <div class="row">
-        <div class="col">
-          <div>
-            Nigiri Restauran.
-            12 Market St, Valencia
-            Valencia Espana, 24100
-            Telefono: (96) 234-7890
-            Adrian
-            adrian.roso@example.com
-            </div>
-            <div><p class="fw-bold mt-3">Abierto de Lunes a Domingo de 13:00PM a 23:00PM</p></div>
         </div>
-        <div class="col mt-4">
-        <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12373.793492151608!2d-0.23444284999999998!3d39.1645265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1675109447057!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        </div>
-     </div>
     </div>
 
 

@@ -40,4 +40,7 @@ body {
    background-color: rgba(255, 166, 0, 0.406);
  }
  
- 
+
+.mapcontainer{
+  width: 80vw;
+}
