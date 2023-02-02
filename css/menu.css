@@ -20,3 +20,39 @@ body {
     transform: scale(0.9);
  }
 
+ /* <========================= Card Menu===========================> */
+
+ .card-image {
+   height: 30vh;
+   background-position: center;
+   background-size: cover;
+}
+
+.bgco {
+   background-color: rgba(255, 166, 0, 0.183);
+}
+
+#Slid1{
+   background-image: url(../img/Slid-1.png);
+}
+
+#Slid2{
+   background-image: url(../img/Slid-2.jpg);
+}
+
+#Slid3{
+   background-image: url(../img/Slid-3.png);
+}
+
+#Slid4{
+   background-image: url(../img/Slid-4.jpg);
+}
+
+#Slid5{
+   background-image: url(../img/Slid-5.png);
+}
+
+#Slid6{
+   background-image: url(../img/Slid-6.jpg);
+}
+
