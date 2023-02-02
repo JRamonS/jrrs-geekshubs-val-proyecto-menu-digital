@@ -20,7 +20,10 @@ Esta tarea/ejercicio consiste en la creación de una carta digital de un restaur
 
 - Menu: En esta página encontraremos las diferentes opciones Buffe dependiendo el día de la semana.
 
-<img width="206" alt="Screenshot_13" src="https://user-images.githubusercontent.com/118629906/215610067-4872822f-51d7-4479-a320-bc840bdb932a.png">
+<img width="202" alt="Screenshot_3" src="https://user-images.githubusercontent.com/118629906/216472045-8acb973e-334e-448c-9bb3-272f967fe1ff.png">
+
+<img width="202" alt="Screenshot_4" src="https://user-images.githubusercontent.com/118629906/216472100-a9ce43ff-6e7a-4dd2-9b18-00dbb00819c2.png">
+
 
 
 - Reserva: En esta última opción los comensales podrán hacer su reserva y ponerse en contacto con el restaurante, también encontrarán la ubicación del mismo.
